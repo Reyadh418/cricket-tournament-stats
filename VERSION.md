@@ -17,7 +17,7 @@ This version is all about setting up the visual interface using only `printf`. T
     6. Save & load
     7. Exit
 *   **The Specimen Record:** Design how a player's stats will look on screen. Use escape sequences like `\t` (tab) and `\n` (newline) to align columns neatly. 
-    *   *Example Output:* `ID: 101 | Name: Virat Kohli | Innings: 5 | Runs: 248 | Outs: 9 | Balls: 200`
+    *   *Example Output:* `ID: 101 | Name: Virat Kohli | Innings: 5 | Runs: 248 | Outs: 4 | Balls: 200`
 
 ---
 
