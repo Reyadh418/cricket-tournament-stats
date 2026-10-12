@@ -24,14 +24,14 @@ int main() {
     scanf("%d", &balls_faced);
     printf("\n\n");
 
-    batting_average = (float) runs / times_out;
-    strike_rate = ((float) runs / balls_faced) * 100;
+    batting_average = (double) runs / times_out;
+    strike_rate = ((double) runs / balls_faced) * 100;
 
-    printf("-------------------------------------------------------------------------\n");
-    printf("|ID\t|Name\t|Runs\t|Innings\t|Average\t|Strike_Rate\t|\n");
-    printf("-------------------------------------------------------------------------\n");
-    printf("|%d\t|%s\t|%d\t|%d\t\t|%.2f\t\t|%.2f\t\t|\n", player_id, name, runs, innings, batting_average, strike_rate);
-    printf("-------------------------------------------------------------------------\n");
+    printf("-------------------------------------------------------------------------------------------------\n");
+    printf("|ID\t\t|Name\t\t|Runs\t\t|Innings\t|Average\t|Strike_Rate\t|\n");
+    printf("-------------------------------------------------------------------------------------------------\n");
+    printf("|%-15d|%-15s|%-15d|%-15d|%-15.2f|%-15.2f|\n", player_id, name, runs, innings, batting_average, strike_rate);
+    printf("-------------------------------------------------------------------------------------------------\n");
     
     return 0;
 }

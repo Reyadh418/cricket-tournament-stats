@@ -2,7 +2,7 @@
 
 ---
 
-## Version 1 (V1) - Due: Lab 3
+## Version 1 (V1) - Due: Lab 3      (Done)(Submitted)
 **Goal: Static Layout Mastery (No variables, no input)**
 
 This version is all about setting up the visual interface using only `printf`. Think of it as a mockup of your final program.
@@ -21,7 +21,7 @@ This version is all about setting up the visual interface using only `printf`. T
 
 ---
 
-## Version 2 (V2) - Due: Lab 4
+## Version 2 (V2) - Due: Lab 4      (Done)
 **Goal: Memory, Input, and Arithmetic Traps**
 
 Now, replace the hardcoded specimen record with variables and user input.
