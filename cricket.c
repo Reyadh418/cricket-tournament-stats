@@ -1,19 +1,25 @@
 #include <stdio.h>
 
-int main()
-{
-    printf("Welcome to the Cricket Tournament Stastics Portal!!\n\n");
-    printf("1. Add a performence\n");
-    printf("2. Batting Average\n");
-    printf("3. Strike Rate\n");
-    printf("4. Search by player\n");
-    printf("5. Top five by average\n");
-    printf("6. Save & Load\n");
-    printf("7. Exit\n");
+int main() {
+    int player_id, innings, runs, times_out, balls_faced;
+    char name[50];
 
-    printf("\nFeatured player,\n");
+    printf("Enter Player ID: ");
+    scanf("%d", &player_id);
 
-    printf("Name\t\t: Virat Kohli\nID\t\t: 101\nInnings\t\t: 5\nRun\t\t: 248\nOuts\t\t: 4\nBalls\t\t: 200\nStrike Rate\t: 124\nAverage\t\t: 62\n");
+    printf("Enter Player Name: ");
+    scanf(" %49[^\n]", name);
 
-    return 0;
+    printf("Enter Innings: ");
+    scanf("%d", &innings);
+
+    printf("Enter Total Runs: ");
+    scanf("%d", &runs);
+
+    printf("Enter Times Out: ");
+    scanf("%d", &times_out);
+
+    printf("Enter Balls Faced: ");
+    scanf("%d", &balls_faced);
+
 }
