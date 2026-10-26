@@ -21,7 +21,7 @@ This version is all about setting up the visual interface using only `printf`. T
 
 ---
 
-## Version 2 (V2) - Due: Lab 4      (Done)
+## Version 2 (V2) - Due: Lab 4      (Done)(Submitted)
 **Goal: Memory, Input, and Arithmetic Traps**
 
 Now, replace the hardcoded specimen record with variables and user input.
@@ -38,7 +38,7 @@ Now, replace the hardcoded specimen record with variables and user input.
 
 ---
 
-## Version 3 (V3) - Due: Lab 6
+## Version 3 (V3) - Due: Lab 6      (Done)
 **Goal: Modularization (Building Functions)**
 
 You need to break your V2 code into at least five separate functions. Your `main()` should start looking like an outline, calling these functions instead of doing the heavy lifting.
