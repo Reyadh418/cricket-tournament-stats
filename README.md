@@ -11,12 +11,12 @@ A command-line tournament statistics management system designed to track cricket
 - **Group:** Group 7
 - **Group Name:** Team Undefined
 
-| Name | ID |
-| :--- | :--- |
-| MD REYAD HASAN | 2633449 |
-| IFTEDAR RAHMAN AFIF | 2621942 |
-| MD AHONAF TAZWAR | 2621754 |
-| MAHIM AHMED | 2631589 |
+| Name | ID | Status |
+| :--- | :--- | :--- |
+| MD REYAD HASAN | 2633449 | Working |
+| IFTEDAR RAHMAN AFIF | 2621942 | Dropped |
+| MD AHONAF TAZWAR | 2621754 | Dropped |
+| MAHIM AHMED | 2631589 | Dropped |
 
 ---
 
